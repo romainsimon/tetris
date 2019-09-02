@@ -1,0 +1,33 @@
+* { padding: 0; margin: 0; }
+
+html, button, input, select, textarea {
+  color: #000000;
+}
+
+::-moz-selection { background: #39f; }
+::selection { background: #39f; }
+
+html, body {
+  background-color: #32374f;
+  font-family: Arial, sans-serif;
+}
+
+html, body, canvas {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: #4a4a61;
+  -webkit-touch-callout: none;
+  background-color: #4a4a61;
+  display: block;
+  margin: 0 auto;
+  user-select: none;
+  margin-top: 10px;
+  padding: 2px;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Tetris",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "author": "Romain Simon <contact@romainsimon.net> (http://www.romainsimon.net)",
+  "license": "MIT",
+  "keywords": [
+    "tetris"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainsimon/tetris"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "standard": "^14.1.0"
+  },
+  "standard": {
+    "ignore": [
+      "/dist/**/*.js"
+    ]
+  }
+}
